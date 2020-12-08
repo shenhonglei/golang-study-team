@@ -6,6 +6,10 @@
 
  [Github-30天对Golang的了解](doc/team.md) 
 
+## 周期
+
+(2020-12-09 开始~2021-01-09 结束) 总共30天时间，从2020年学到2021年。
+
 ## Go 环境
 - [Go开发环境安装](https://gocn.vip/wiki/install)
 - [Go Module 配置](https://gocn.vip/wiki/gomodule)
