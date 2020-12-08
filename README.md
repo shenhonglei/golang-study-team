@@ -4,6 +4,8 @@
 
 [腾讯文档30天对Golang的了解文档地址](https://docs.qq.com/doc/DSE9VQmJUU1NsbGRT)
 
+ [Github-30天对Golang的了解](doc/team.md) 
+
 ## Go 环境
 - [Go开发环境安装](https://gocn.vip/wiki/install)
 - [Go Module 配置](https://gocn.vip/wiki/gomodule)
