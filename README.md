@@ -1,6 +1,6 @@
 # golang-study-team
 ## 参与人员
-@刘AJ @YK @new生 @1833 @Hugh @星星²⁰¹⁶@Honglei
+@刘AJ @YK @new生 @1833 @Hugh @星星²⁰¹⁶@大脸猫 @Honglei
 
 [腾讯文档30天对Golang的了解文档地址](https://docs.qq.com/doc/DSE9VQmJUU1NsbGRT)
 
