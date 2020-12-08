@@ -24,6 +24,8 @@
 
 书籍：《Go语言实战》In Action系列是比较经典的
 
+[经典教程：The-way-to-go](https://github.com/unknwon/the-way-to-go_ZH_CN)
+
 # **第1-5天**
 
 ## **目标**
