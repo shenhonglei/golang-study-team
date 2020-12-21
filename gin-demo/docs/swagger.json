@@ -1,0 +1,88 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Gin swagger Demo",
+        "title": "Gin swagger",
+        "contact": {
+            "name": "Yang KUn",
+            "url": "http://localhost:8080",
+            "email": "yang@mail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "paths": {
+        "/api/querybyid/{id}": {
+            "get": {
+                "consumes": [
+                    "application/x-json-stream"
+                ],
+                "summary": "通过 id 获取单条记录内容",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "id",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Result"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/queryvmbyname/{name}": {
+            "get": {
+                "consumes": [
+                    "application/x-json-stream"
+                ],
+                "summary": "通过 id 获取虚拟机summary内容",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "name",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Result"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "models.Result": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "example": 200
+                },
+                "data": {
+                    "type": "object"
+                },
+                "message": {
+                    "type": "string",
+                    "example": "请求信息"
+                }
+            }
+        }
+    }
+}

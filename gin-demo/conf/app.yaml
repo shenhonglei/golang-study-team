@@ -1,0 +1,10 @@
+database:
+  url: root:P@ssw0rd@tcp(127.0.0.1:3306)/cmp_log
+  type: mysql
+
+hypervisor:
+  type: vcenter
+  url: https://10.10.71.10
+  username: administrator@vsphere.local
+  password: P@ssw0rd
+  insecure: true
