@@ -6,7 +6,7 @@
 欢迎任何形式的贡献，感谢这些杰出的贡献者！
 
 <a href="https://github.com/shenhonglei/golang-study-team/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=golang-study-team" />
+  <img src="https://contributors-img.web.app/image?repo=shenhonglei/golang-study-team" />
 </a>
 
 [腾讯文档30天对Golang的了解文档地址](https://docs.qq.com/doc/DSE9VQmJUU1NsbGRT)
